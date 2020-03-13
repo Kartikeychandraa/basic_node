@@ -7,7 +7,7 @@ var mongoose = require("mongoose");
 const UserModel = require("./model/user");
 
 mongoose.connect(
-  "mongodb+srv://kartikey:chandra%40123@cluster0-xwnrl.mongodb.net/test?retryWrites=true&w=majority",
+  "mongodb+srv://Username:password@cluster0-xwnrl.mongodb.net/test?retryWrites=true&w=majority",
   { useUnifiedTopology: true, useNewUrlParser: true }
 );
 //----------------
